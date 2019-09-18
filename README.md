@@ -2,7 +2,7 @@
 
 ## HOW TO USE
 
-- Ensure you have nodejs and gulp installed
+- Ensure you have nodejs and git installed
 - clone repo
 - install gulp globally with `npm install -g gulp`
 - install dependencies with `npm i`
