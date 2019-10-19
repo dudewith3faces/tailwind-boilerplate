@@ -16,6 +16,9 @@
     "autoprefixer": "^9.6.1",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "gulp-postcss": "^8.0.0"
+    "gulp-brotli": "^1.2.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
