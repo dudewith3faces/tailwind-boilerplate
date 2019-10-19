@@ -1,5 +1,6 @@
 const browserSync = require('browser-sync').create();
 const gulp = require('gulp');
+const rename = require('gulp-rename');
 
 const env = 'dev';
 const dest = 'src/css';
@@ -43,8 +44,9 @@ gulp.task('css', function() {
   const postcss = require('gulp-postcss');
 
   return gulp
-    .src('src/tailwind.css')
+    .src('src/css/main.tailwind.css')
     .pipe(postcss(plugins))
+    .pipe(rename('tailwind.css'))
     .pipe(gulp.dest(dest))
     .pipe(browserSync.stream());
 });
