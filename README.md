@@ -1,9 +1,14 @@
-# TAILWIND BOILERPLATE
+# TAILWIND STARTERPACK
+
+This is a starterpack for tailwind. Purge css, minify css and brotli implemented.
 
 ## HOW TO USE
 
-- Ensure you have nodejs and git installed
 - clone repo
-- install gulp globally with `npm install -g gulp`
 - install dependencies with `npm i`
-- start server by running `gulp` in CLI
+- start server by running `npm start` in CLI
+
+### FEATURES
+
+- `env` is set to 'dev' by default. Change `env` to 'production' before deploying
+- `gulp prod` pruge, minify and compress css.
